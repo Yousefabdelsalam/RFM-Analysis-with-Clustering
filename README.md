@@ -1,4 +1,4 @@
-# 🧠 RFM Analysis & Customer Segmentation
+# 🧠 RFM Analysis & Customer Segmentation Clustering
 
 This project focuses on **Customer Segmentation** using **RFM (Recency, Frequency, Monetary) analysis**, a proven technique in marketing analytics that helps identify and understand customer behavior. I used RFM values to segment customers and applied clustering algorithms to discover distinct customer groups based on their purchasing patterns.
 
