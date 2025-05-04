@@ -34,15 +34,7 @@ Next, I segmented each RFM value using `pandas.cut()` to assign scores:
 
 Then, I combined the scores into a single RFM score and assigned customer segments based on that.
 
-Here’s an example of the final table after scoring:
 
-| CustomerID | Recency | Frequency | Monetary | r_score | f_score | m_score | score | Segment         |
-|------------|---------|-----------|----------|---------|---------|---------|-------|------------------|
-| 12345      | 10      | 5         | 500      | 4       | 3       | 4       | 434   | Loyal Customer   |
-| 54321      | 200     | 1         | 50       | 1       | 1       | 1       | 111   | Lost/Inactive    |
-| ...        | ...     | ...       | ...      | ...     | ...     | ...     | ...   | ...              |
-
----
 
 ## 🤖 Clustering Models Used
 
